@@ -89,3 +89,11 @@ function addMessage(){
         container.appendChild(msg);
 
         typeMessage(messages[index], msg, ()=>{
+            index++;
+            setTimeout(addMessage,600);
+        });
+    });
+}
+</script>
+</body>
+</html>
