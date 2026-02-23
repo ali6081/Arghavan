@@ -44,9 +44,13 @@ overlay.addEventListener("click", ()=>{
 
 const messages = [
 "سلام ارغوان",
-"اومدم اینجا بگم که...",
-"ولنتاینت مبارک دختر قشنگم😁",
-"با آرزوی بهترین ها واسه تو",
+"میدونی الان واسه چی اینجاییم؟",
+"چون الان که ساعت 00:00 شده قطعا امروز یه روز مهمیه",
+"روز جهانی دخترههه😍",
+"دختر بودن یعنی",
+"قلبی‌بزرگ‌تر از دنیا داشتن",
+"و تو بهترین معنای این جمله ای ، ارغوان",
+"روزت‌مبارک قشنگ ترین دختر دنیا",
 "❤️❤️❤️❤️",
 ];
 const container = document.getElementById("messages");
@@ -85,11 +89,3 @@ function addMessage(){
         container.appendChild(msg);
 
         typeMessage(messages[index], msg, ()=>{
-            index++;
-            setTimeout(addMessage,600);
-        });
-    });
-}
-</script>
-</body>
-</html>
